@@ -45,3 +45,4 @@ src/main/java/id/tugas/Email/EmailService.java
 src/main/java/id/tugas/Service/KebunService.java
 src/main/java/id/tugas/Email
 src/main/java/id/tugas/Service
+src/main/resources/application.properties
