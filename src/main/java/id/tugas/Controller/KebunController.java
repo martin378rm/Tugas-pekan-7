@@ -94,7 +94,7 @@ public class KebunController {
 
     @GET
     @Path("report")
-    @Scheduled(cron = "0 0 16 ? * SAT")
+    @Scheduled(cron = "0 0 10 28 * ?")
     public void get() throws Exception {
         String fileName = "report" + "_" + i + ".pdf";
         String outputFileName = "reporting/result_reporting/" + fileName;
