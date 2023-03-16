@@ -58,7 +58,6 @@ public class KebunController {
     @Transactional
     @Scheduled(cron = "0 0 15 ? * SAT")
     public void tambahData() {
-        System.out.println("hello");
         Kebun kebun = new Kebun();
         kebun.setKomoditas("tomat");
         kebun.setTotal(500);
